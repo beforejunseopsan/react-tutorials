@@ -27,6 +27,13 @@ class App extends Component {
     })
   }
 
+  handelUpdate = (id, data) => {
+    const  { information } = this.state;
+    this.setState({
+
+    })
+  }
+
   render() {
     return (
       <div>
